@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Home from './Components/Home';
 import Logo from '../Components/images/Desktop.png';
 import cart from '../Components/images/icon cart.png';
 import profile from '../Components/images/Vector.png';
@@ -47,9 +46,7 @@ function Navbar() {
           </div>
           <div className="ml-12">
             <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-9 text-white ">
-              <Link to="/">  <li><a href="#Home" className="hover:underline  ">Home</a>
-               
-              </li> </Link>
+              <li><Link to="/Home" className="hover:underline ">Home </Link> </li>
               <li><a href="#Accessories" className="hover:underline">Accessories</a></li>
               <li><a href="#Lessons" className="hover:underline">Lessons</a></li>
               <li><a href="#Repairs" className="hover:underline">Repairs</a></li>

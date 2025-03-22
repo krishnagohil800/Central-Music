@@ -11,12 +11,12 @@ import Home from './Components/Home';
 
 function App() {
   
-  
+
   return (
     <Router>
       
       <Navbar />
-      {/* <Home /> */}
+      <Home />
       
       <Routes>
         <Route path="/signup" element={<Signup />} />
