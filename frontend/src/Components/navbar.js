@@ -47,7 +47,7 @@ function Navbar() {
           </div>
           <div className="ml-12">
             <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-9 text-white ">
-              <Link to="/Home">  <li><a href="#Home" className="hover:underline  ">Home</a>
+              <Link to="/">  <li><a href="#Home" className="hover:underline  ">Home</a>
                
               </li> </Link>
               <li><a href="#Accessories" className="hover:underline">Accessories</a></li>
